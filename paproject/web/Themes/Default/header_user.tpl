@@ -148,15 +148,6 @@
 					<p class="convo-meta"><?php echo (isset($metadata) && $metadata != '') ? $metadata : ''; ?></p>
 				</div>
 			</div>
-			<div class="aside supplementary">
-<?php
-		if(isset($aside) && $aside === true) {
-?>
-				<a href="<?= PA::$url ?>/post_content.php" class="button">Share what's on your mind</a>
-<?php
-		}
-?>
-			</div>
 		</div>
 	</div>
 </div>
