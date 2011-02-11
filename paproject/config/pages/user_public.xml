@@ -10,7 +10,6 @@
       <item>MyLinksModule</item>
       <item>UserFollowingIssuesModule</item>
       <item>UserFollowingConversationsModule</item>
-      <item>ThoughtsListModule</item>
     </right>
     <javascripts>
       <item>inplaced.js</item>
