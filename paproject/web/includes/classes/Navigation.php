@@ -293,13 +293,13 @@ class Navigation {
                                   'url'=>CC_APPLICATION_URL . CC_ROUTE_ISSUES
 		),
                        'community' => array('caption'=> __('Community'),
-		 						  'url'=>$this->base_url . CC_ROUTE_PEOPLE
+		 						  'url'=>CC_APPLICATION_URL . CC_ROUTE_COMMUNITY
 		),
                        'about' => array('caption'=> __('About Us'), 
                        					'url'=>CC_APPLICATION_URL . CC_ROUTE_ABOUT,
                                   		'sublinks'=>array(
 							                       'blog' => array('caption'=> __('Blog'),
-							                                  'url'=>$this->base_url . '/blog'),
+							                                  'url'=>CC_APPLICATION_URL . '/blog'),
 							                       'faq' => array('caption'=> __('FAQ'),
 							                                  'url'=>CC_APPLICATION_URL . '/faq'),
 							                       'principles' => array('caption'=> __('Mission &amp; Principles'),
@@ -309,7 +309,7 @@ class Navigation {
 							                       'partners' => array('caption'=> __('Partners'),
 							                                  'url'=>CC_APPLICATION_URL . '/partners'),
 							                       'press' => array('caption'=> __('In The News'),
-							                                  'url'=>PA::$url . '/press'),
+							                                  'url'=>CC_APPLICATION_URL . '/press'),
 							                       'contact-us' => array('caption'=> __('Contact us'),
 							                                  'url'=>CC_APPLICATION_URL . '/contact-us'),
 												),
